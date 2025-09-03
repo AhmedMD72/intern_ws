@@ -35,5 +35,6 @@ ros2 launch arabian_robot gazebo.launch.py
 ```
 
 ## Launch RViz2 ## 
+```
 ros2 launch arabian_robot rviz.launch.py
-
+```
