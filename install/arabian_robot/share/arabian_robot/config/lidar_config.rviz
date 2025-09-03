@@ -1,0 +1,38 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /LaserScan1
+    Tree Height: 400
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/LaserScan
+      Name: LaserScan1
+      Enabled: true
+      Topic:
+        Value: /scan
+      Size (m): 0.05
+      Color: 255; 0; 0
+      Style: Points
+      Queue Size: 2000
+      Reliability Policy: Best Effort
+      History Policy: Keep Last
+      Depth: 2000
+  Enabled: true
+  Global Options:
+    Fixed Frame: my_robot/base_footprint
+  Tools:
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/Measure
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 10
+      Pitch: 0.5
+      Yaw: 0.5
+Window Geometry:
+  Width: 1200
+  Height: 800

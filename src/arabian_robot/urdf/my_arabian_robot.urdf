@@ -816,7 +816,7 @@ type="fixed">
   <sensor name="gpu_lidar" type="gpu_lidar">
     
     <pose>0 0 0 0 0 0</pose>
-    <topic>/lidar</topic>      
+    <topic>scan</topic>      
     <update_rate>10</update_rate>
     <ray>
       <scan>
@@ -857,6 +857,7 @@ type="fixed">
     
   </plugin>
 </gazebo>
+
 
 <gazebo reference="imu_Link">
 <sensor name="imu_sensor" type="imu">

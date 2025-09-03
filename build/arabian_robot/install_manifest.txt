@@ -19,6 +19,9 @@
 /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/meshes/ultrasonic_link.STL
 /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/meshes/front_right_wheel.STL
 /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/meshes/imu_Link.STL
+/home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/config/lidar_config.rviz
+/home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/worlds/gps_world.sdf
+/home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/worlds/empty.sdf
 /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/ament_index/resource_index/package_run_dependencies/arabian_robot
 /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/ament_index/resource_index/parent_prefix_path/arabian_robot
 /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/environment/ament_prefix_path.sh

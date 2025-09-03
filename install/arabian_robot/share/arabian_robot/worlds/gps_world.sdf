@@ -1,0 +1,70 @@
+<sdf version="1.7">
+  <world name="default">
+    <!-- Physics -->
+    <physics name="1ms" type="ignored">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+
+    <!-- Include ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Include sun -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- GPS Sensor on a box -->
+    <model name="gps_box">
+      <pose>0 0 0.5 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.5 0.5 0.5</size>
+            </box>
+          </geometry>
+        </visual>
+
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.5 0.5 0.5</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <!-- GPS sensor -->
+        <sensor name="gps_sensor" type="gps">
+          <pose>0 0 0.3 0 0 0</pose>
+          <update_rate>10</update_rate>
+          <gps>
+            <position_sensing>
+              <horizontal_noise>
+                <mean>0.0</mean>
+                <stddev>0.01</stddev>
+                <bias_mean>0.0</bias_mean>
+                <bias_stddev>0.001</bias_stddev>
+              </horizontal_noise>
+              <vertical_noise>
+                <mean>0.0</mean>
+                <stddev>0.01</stddev>
+                <bias_mean>0.0</bias_mean>
+                <bias_stddev>0.001</bias_stddev>
+              </vertical_noise>
+            </position_sensing>
+          </gps>
+          <plugin name="gps_plugin" filename="libgazebo_ros_gps.so">
+            <ros>
+              <namespace>/</namespace>
+              <remapping>~/out:=/gps</remapping>
+            </ros>
+          </plugin>
+        </sensor>
+      </link>
+    </model>
+  </world>
+</sdf>

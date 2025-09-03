@@ -27,11 +27,14 @@ def generate_launch_description():
         name='joint_state_publisher_gui',
         output='screen'
     ),
+    
 
-    Node(
-        package='rviz2',
-        executable='rviz2',
-        name='rviz2',
-        output='screen'
-    )
+   Node(
+    package='rviz2',
+    executable='rviz2',
+    name='rviz2',
+    arguments=['-d', os.path.join(pkg_share_dir, 'rviz', 'lidar_config.rviz')],
+    output='screen'
+)
+
 ])

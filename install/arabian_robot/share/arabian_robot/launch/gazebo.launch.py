@@ -46,9 +46,10 @@ def generate_launch_description():
                 '/cmd_vel@geometry_msgs/msg/Twist@gz.msgs.Twist',
                 '/odom@nav_msgs/msg/Odometry@gz.msgs.Odometry',
                 '/pose@geometry_msgs/msg/PoseStamped@gz.msgs.Pose',
-                '/lidar@sensor_msgs/msg/LaserScan@gz.msgs.LaserScan',
+                '/scan@sensor_msgs/msg/LaserScan@gz.msgs.LaserScan',
+                '/scan/points@sensor_msgs/msg/PointCloud2@gz.msgs.PointCloudPacked',
                 '/imu@sensor_msgs/msg/Imu@gz.msgs.IMU',
-                '/gps/fix@sensor_msgs/msg/NavSatFix@gz.msgs.Gps'
+                '/gps@sensor_msgs/msg/NavSatFix@gz.msgs.NavSat'
             ],
             output='screen'
         )
