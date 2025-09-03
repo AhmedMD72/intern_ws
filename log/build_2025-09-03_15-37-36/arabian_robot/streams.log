@@ -1,0 +1,46 @@
+[0.017s] Invoking command in '/home/ahmed/E_Disk/arabian_ros/ws/intern_ws/build/arabian_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmed/E_Disk/Minesweeper/localization_ws/install/localization_pkg:/home/ahmed/E_Disk/microros_ws/install/sensor_msgs_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/build/arabian_robot -- -j16 -l16
+[0.091s] Invoked command in '/home/ahmed/E_Disk/arabian_ros/ws/intern_ws/build/arabian_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmed/E_Disk/Minesweeper/localization_ws/install/localization_pkg:/home/ahmed/E_Disk/microros_ws/install/sensor_msgs_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/build/arabian_robot -- -j16 -l16
+[0.115s] Invoking command in '/home/ahmed/E_Disk/arabian_ros/ws/intern_ws/build/arabian_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmed/E_Disk/Minesweeper/localization_ws/install/localization_pkg:/home/ahmed/E_Disk/microros_ws/install/sensor_msgs_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/build/arabian_robot
+[0.134s] -- Install configuration: ""
+[0.135s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/launch
+[0.135s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/launch/gazebo.launch.py
+[0.135s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/launch/rviz.launch.py
+[0.136s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/urdf
+[0.136s] -- Installing: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/urdf/my_arabian_robot.urdf
+[0.136s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/meshes
+[0.136s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/meshes/plug_collision.stl
+[0.136s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/meshes/base_link.STL
+[0.136s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/meshes/rear_left_wheel.STL
+[0.137s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/meshes/upper_Link.STL
+[0.137s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/meshes/arabian_link.STL
+[0.137s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/meshes/plug.stl
+[0.137s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/meshes/rear_ultrasonic_link.STL
+[0.137s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/meshes/gps_Link.STL
+[0.137s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/meshes/camera_link.STL
+[0.137s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/meshes/2d_lidar.STL
+[0.138s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/meshes/rear_ultrasonic.STL
+[0.138s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/meshes/lidar_link.STL
+[0.138s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/meshes/front_left_wheel.STL
+[0.138s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/meshes/rear_right_wheel.STL
+[0.138s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/meshes/realsenseD435.dae
+[0.138s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/meshes/ultrasonic_link.STL
+[0.139s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/meshes/front_right_wheel.STL
+[0.139s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/meshes/imu_Link.STL
+[0.139s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/config
+[0.139s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/worlds
+[0.139s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/ament_index/resource_index/package_run_dependencies/arabian_robot
+[0.139s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/ament_index/resource_index/parent_prefix_path/arabian_robot
+[0.139s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/environment/ament_prefix_path.sh
+[0.140s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/environment/ament_prefix_path.dsv
+[0.140s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/environment/path.sh
+[0.140s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/environment/path.dsv
+[0.140s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/local_setup.bash
+[0.140s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/local_setup.sh
+[0.140s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/local_setup.zsh
+[0.141s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/local_setup.dsv
+[0.141s] -- Installing: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/package.dsv
+[0.141s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/ament_index/resource_index/packages/arabian_robot
+[0.141s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/cmake/arabian_robotConfig.cmake
+[0.141s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/cmake/arabian_robotConfig-version.cmake
+[0.141s] -- Up-to-date: /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/install/arabian_robot/share/arabian_robot/package.xml
+[0.141s] Invoked command in '/home/ahmed/E_Disk/arabian_ros/ws/intern_ws/build/arabian_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmed/E_Disk/Minesweeper/localization_ws/install/localization_pkg:/home/ahmed/E_Disk/microros_ws/install/sensor_msgs_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ahmed/E_Disk/arabian_ros/ws/intern_ws/build/arabian_robot
