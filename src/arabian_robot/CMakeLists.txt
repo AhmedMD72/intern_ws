@@ -1,8 +1,11 @@
 cmake_minimum_required(VERSION 3.8)
+<<<<<<< HEAD
 # fix CMP0009 warning
 if(POLICY CMP0009)
   cmake_policy(SET CMP0009 NEW)
 endif()
+=======
+>>>>>>> dd87292 (urdf)
 project(arabian_robot)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
