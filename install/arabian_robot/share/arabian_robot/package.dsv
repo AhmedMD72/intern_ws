@@ -1,6 +1,0 @@
-source;share/arabian_robot/hook/cmake_prefix_path.dsv
-source;share/arabian_robot/hook/cmake_prefix_path.sh
-source;share/arabian_robot/local_setup.bash
-source;share/arabian_robot/local_setup.dsv
-source;share/arabian_robot/local_setup.sh
-source;share/arabian_robot/local_setup.zsh
